@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE_StatementsExpressions_Baker", "PE_StatementsExpressions_Baker\PE_StatementsExpressions_Baker.csproj", "{05C09DE9-437F-4900-AD04-12686AFA4453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C09DE9-437F-4900-AD04-12686AFA4453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C09DE9-437F-4900-AD04-12686AFA4453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C09DE9-437F-4900-AD04-12686AFA4453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C09DE9-437F-4900-AD04-12686AFA4453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FB36FDE-C220-409B-A122-1C0ABB5A23A6}
+	EndGlobalSection
+EndGlobal

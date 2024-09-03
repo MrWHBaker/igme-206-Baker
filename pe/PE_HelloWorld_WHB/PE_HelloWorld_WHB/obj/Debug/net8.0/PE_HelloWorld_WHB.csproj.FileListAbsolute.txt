@@ -1,0 +1,14 @@
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\bin\Debug\net8.0\PE_HelloWorld_WHB.exe
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\bin\Debug\net8.0\PE_HelloWorld_WHB.deps.json
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\bin\Debug\net8.0\PE_HelloWorld_WHB.runtimeconfig.json
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\bin\Debug\net8.0\PE_HelloWorld_WHB.dll
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\bin\Debug\net8.0\PE_HelloWorld_WHB.pdb
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.AssemblyInfoInputs.cache
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.AssemblyInfo.cs
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.csproj.CoreCompileInputs.cache
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.dll
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\refint\PE_HelloWorld_WHB.dll
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.pdb
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\PE_HelloWorld_WHB.genruntimeconfig.cache
+D:\Profiles\whb4352\source\repos\PE_HelloWorld_WHB\PE_HelloWorld_WHB\obj\Debug\net8.0\ref\PE_HelloWorld_WHB.dll

@@ -1,0 +1,14 @@
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\bin\Debug\net8.0\StatementsDemoWB.exe
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\bin\Debug\net8.0\StatementsDemoWB.deps.json
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\bin\Debug\net8.0\StatementsDemoWB.runtimeconfig.json
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\bin\Debug\net8.0\StatementsDemoWB.dll
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\bin\Debug\net8.0\StatementsDemoWB.pdb
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.AssemblyInfoInputs.cache
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.AssemblyInfo.cs
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.csproj.CoreCompileInputs.cache
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.dll
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\refint\StatementsDemoWB.dll
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.pdb
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\StatementsDemoWB.genruntimeconfig.cache
+D:\Profiles\whb4352\source\repos\StatementsDemoWB\StatementsDemoWB\obj\Debug\net8.0\ref\StatementsDemoWB.dll
