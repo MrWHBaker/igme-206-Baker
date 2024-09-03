@@ -1,0 +1,14 @@
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.exe
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.deps.json
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.runtimeconfig.json
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.dll
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\bin\Debug\net8.0\HelloGit.pdb
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.AssemblyInfoInputs.cache
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.AssemblyInfo.cs
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.csproj.CoreCompileInputs.cache
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.dll
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\refint\HelloGit.dll
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.pdb
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\HelloGit.genruntimeconfig.cache
+D:\Profiles\whb4352\source\repos\HelloGit\HelloGit\obj\Debug\net8.0\ref\HelloGit.dll
