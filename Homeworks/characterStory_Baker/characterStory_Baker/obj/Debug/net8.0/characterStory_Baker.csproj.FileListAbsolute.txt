@@ -1,0 +1,14 @@
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\bin\Debug\net8.0\characterStory_Baker.exe
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\bin\Debug\net8.0\characterStory_Baker.deps.json
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\bin\Debug\net8.0\characterStory_Baker.runtimeconfig.json
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\bin\Debug\net8.0\characterStory_Baker.dll
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\bin\Debug\net8.0\characterStory_Baker.pdb
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.AssemblyInfoInputs.cache
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.AssemblyInfo.cs
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.csproj.CoreCompileInputs.cache
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.dll
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\refint\characterStory_Baker.dll
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.pdb
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\characterStory_Baker.genruntimeconfig.cache
+D:\Profiles\whb4352\source\repos\characterStory_Baker\characterStory_Baker\obj\Debug\net8.0\ref\characterStory_Baker.dll
