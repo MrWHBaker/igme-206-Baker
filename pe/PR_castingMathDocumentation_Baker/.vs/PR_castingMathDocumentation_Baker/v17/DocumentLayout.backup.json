@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PR_castingMathDocumentation_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44985B77-12ED-46EC-81B3-4B9AA8206D44}|PR_castingMathDocumentation_Baker\\PR_castingMathDocumentation_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pr_castingmathdocumentation_baker\\pr_castingmathdocumentation_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44985B77-12ED-46EC-81B3-4B9AA8206D44}|PR_castingMathDocumentation_Baker\\PR_castingMathDocumentation_Baker.csproj|solutionrelative:pr_castingmathdocumentation_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PR_castingMathDocumentation_Baker\\PR_castingMathDocumentation_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "PR_castingMathDocumentation_Baker\\Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PR_castingMathDocumentation_Baker\\PR_castingMathDocumentation_Baker\\Program.cs",
+              "RelativeToolTip": "PR_castingMathDocumentation_Baker\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:32:00.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
