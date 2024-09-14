@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\bin\Debug\net8.0\PE_StringFormatting_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\bin\Debug\net8.0\PE_StringFormatting_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\bin\Debug\net8.0\PE_StringFormatting_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\bin\Debug\net8.0\PE_StringFormatting_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\bin\Debug\net8.0\PE_StringFormatting_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\refint\PE_StringFormatting_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\PE_StringFormatting_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_StringFormatting_Baker\PE_StringFormatting_Baker\obj\Debug\net8.0\ref\PE_StringFormatting_Baker.dll
