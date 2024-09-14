@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_InputParsing_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3AB6D1-CE87-40E4-ACA8-122687941301}|PE_InputParsing_Baker\\PE_InputParsing_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_inputparsing_baker\\pe_inputparsing_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3AB6D1-CE87-40E4-ACA8-122687941301}|PE_InputParsing_Baker\\PE_InputParsing_Baker.csproj|solutionrelative:pe_inputparsing_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_InputParsing_Baker\\PE_InputParsing_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "PE_InputParsing_Baker\\Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_InputParsing_Baker\\PE_InputParsing_Baker\\Program.cs",
+              "RelativeToolTip": "PE_InputParsing_Baker\\Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:55:54.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
