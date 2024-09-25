@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\bin\Debug\net8.0\statsAnalysis_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\bin\Debug\net8.0\statsAnalysis_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\bin\Debug\net8.0\statsAnalysis_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\bin\Debug\net8.0\statsAnalysis_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\bin\Debug\net8.0\statsAnalysis_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\refint\statsAnalysis_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\statsAnalysis_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\statsAnalysis_Baker\statsAnalysis_Baker\obj\Debug\net8.0\ref\statsAnalysis_Baker.dll
