@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\bin\Debug\net8.0\PE_2dArrays_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\bin\Debug\net8.0\PE_2dArrays_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\bin\Debug\net8.0\PE_2dArrays_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\bin\Debug\net8.0\PE_2dArrays_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\bin\Debug\net8.0\PE_2dArrays_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\refint\PE_2dArrays_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\PE_2dArrays_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_2dArrays_Baker\PE_2dArrays_Baker\obj\Debug\net8.0\ref\PE_2dArrays_Baker.dll
