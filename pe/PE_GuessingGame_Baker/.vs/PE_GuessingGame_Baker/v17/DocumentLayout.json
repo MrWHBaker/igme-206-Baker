@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_GuessingGame_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43806999-150F-42C1-8F99-59EAB437E61F}|PE_GuessingGame_Baker\\PE_GuessingGame_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_guessinggame_baker\\pe_guessinggame_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43806999-150F-42C1-8F99-59EAB437E61F}|PE_GuessingGame_Baker\\PE_GuessingGame_Baker.csproj|solutionrelative:pe_guessinggame_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_GuessingGame_Baker\\PE_GuessingGame_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "PE_GuessingGame_Baker\\Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_GuessingGame_Baker\\PE_GuessingGame_Baker\\Program.cs",
+              "RelativeToolTip": "PE_GuessingGame_Baker\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:04:22.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
