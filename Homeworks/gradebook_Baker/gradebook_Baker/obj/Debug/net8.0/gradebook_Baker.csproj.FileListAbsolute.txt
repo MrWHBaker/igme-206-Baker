@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\bin\Debug\net8.0\gradebook_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\bin\Debug\net8.0\gradebook_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\bin\Debug\net8.0\gradebook_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\bin\Debug\net8.0\gradebook_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\bin\Debug\net8.0\gradebook_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\refint\gradebook_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\gradebook_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\gradebook_Baker\gradebook_Baker\obj\Debug\net8.0\ref\gradebook_Baker.dll
