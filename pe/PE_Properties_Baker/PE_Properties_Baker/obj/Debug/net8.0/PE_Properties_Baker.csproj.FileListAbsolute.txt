@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\bin\Debug\net8.0\PE_Properties_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\bin\Debug\net8.0\PE_Properties_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\bin\Debug\net8.0\PE_Properties_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\bin\Debug\net8.0\PE_Properties_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\bin\Debug\net8.0\PE_Properties_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\refint\PE_Properties_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\PE_Properties_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\pe\PE_Properties_Baker\PE_Properties_Baker\obj\Debug\net8.0\ref\PE_Properties_Baker.dll
