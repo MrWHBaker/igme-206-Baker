@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_Lists_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7992D0-B420-48CE-8527-D73D482C2E47}|PE_Lists_Baker\\PE_Lists_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_lists_baker\\pe_lists_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7992D0-B420-48CE-8527-D73D482C2E47}|PE_Lists_Baker\\PE_Lists_Baker.csproj|solutionrelative:pe_lists_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7992D0-B420-48CE-8527-D73D482C2E47}|PE_Lists_Baker\\PE_Lists_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_lists_baker\\pe_lists_baker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7992D0-B420-48CE-8527-D73D482C2E47}|PE_Lists_Baker\\PE_Lists_Baker.csproj|solutionrelative:pe_lists_baker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_Lists_Baker\\PE_Lists_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Lists_Baker\\Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_Lists_Baker\\PE_Lists_Baker\\Program.cs",
+              "RelativeToolTip": "PE_Lists_Baker\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:03:00.389Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_Lists_Baker\\PE_Lists_Baker\\Player.cs",
+              "RelativeDocumentMoniker": "PE_Lists_Baker\\Player.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_Lists_Baker\\PE_Lists_Baker\\Player.cs",
+              "RelativeToolTip": "PE_Lists_Baker\\Player.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:04:11.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
