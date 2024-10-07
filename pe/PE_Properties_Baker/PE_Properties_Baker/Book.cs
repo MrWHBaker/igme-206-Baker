@@ -79,7 +79,7 @@ namespace PE_Properties_Baker
             Console.WriteLine
                 (
                 $"{title} by {author} has {pageCount} pages. " +
-                $"It is owned by {owner} and has been read {timesRead} times."
+                $"It is owned by {owner} and has been read {TimesRead} times."
                 );
         }
 
