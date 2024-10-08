@@ -5,8 +5,8 @@
  * Write-up: https://docs.google.com/document/d/1eOYYtup_hlHzLSw62bFBEFJY8Qm_7SFdtTi3FH8IIuw/edit
  *
  * Primary upgrades:
- *  1. 
- *  2.
+ *  1. Enemy Customization
+ *  2. Customize Console Interface
  *  
  * Optional extra upgrades:
  *  3.
@@ -221,6 +221,15 @@ namespace HW4_Arena
         private static int Fight(int[] stats)
         {
             // TODO: Implement the Fight method
+
+            // - Initialize the enemy's health
+            // - Print the start of combat event
+
+            // Combat loop:
+            // - Print the player's and enemy's health stats
+            // - Prompt the player for action
+            // Loop will not have a condition, and will run until a return condition qualifies
+
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             return 0; // replace this. it's just so the starter code compiles.
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -235,8 +244,15 @@ namespace HW4_Arena
         private static string GetPlayerInfo(int[] statsArray)
         {
             // TODO: Implement the GetPlayerInfo method
+
+            // - Use the SmartConsole's GetPromptedInput method to get the player's name
+            // - Use the SmartConsole's GetValidIntegerInput to fill out necessary stats
+            //     For each stat, calculate the new max based on the previous input
+            //     The final unassigned stat points can also be determined from this calculation
+
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return "???"; // replace this. it's just so the starter code compiles.
+            // Get name and introduce program
+            return "???";
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
@@ -258,6 +274,13 @@ namespace HW4_Arena
             numEnemies = 0;
 
             // TODO: Implement the BuildArena method
+
+            // - Prompt the user for width and height using SmartConsole's GetValidIntegerInput method
+            // - Design a for loop to fill the 2D arena array.
+            //     All items in the array where either index is 0 or the the max should be a border
+            //     Use the modulus operation to insert enemy locations
+            //     Insert player start and exit last
+
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             char[,] arena = null; // replace this. it's just so the starter code compiles.
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -275,6 +298,11 @@ namespace HW4_Arena
         private static void PrintArena(char[,] arena, int[] playerLoc)
         {
             // TODO: Implement the PrintArena method
+
+            // - Loop through the arena array and print each row
+            // - Compare each item to the player's location so as to print it in the right place
+            // - Check for the character in each index and set the color accordingly
+
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
