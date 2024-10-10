@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_fileio_baker\\pe_fileio_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|solutionrelative:pe_fileio_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_fileio_baker\\pe_fileio_baker\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|solutionrelative:pe_fileio_baker\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\pe\\pe_fileio_baker\\pe_fileio_baker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56C412B7-B1D0-42A9-92DA-D5C7B1A6279A}|PE_FileIO_Baker\\PE_FileIO_Baker.csproj|solutionrelative:pe_fileio_baker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "PE_FileIO_Baker\\Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\Program.cs",
+              "RelativeToolTip": "PE_FileIO_Baker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:33:32.727Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "PE_FileIO_Baker\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\PlayerManager.cs",
+              "RelativeToolTip": "PE_FileIO_Baker\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:47:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\Player.cs",
+              "RelativeDocumentMoniker": "PE_FileIO_Baker\\Player.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\pe\\PE_FileIO_Baker\\PE_FileIO_Baker\\Player.cs",
+              "RelativeToolTip": "PE_FileIO_Baker\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:34:47.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
