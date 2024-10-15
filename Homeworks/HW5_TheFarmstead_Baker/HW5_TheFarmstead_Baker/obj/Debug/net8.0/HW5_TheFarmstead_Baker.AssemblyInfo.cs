@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW5_TheFarmstead_Baker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2431534158ce1f8f2b420e6a2fb299ab09b47ab3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ef8a940762694cf57c91f5c49698e64a45e9487")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW5_TheFarmstead_Baker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW5_TheFarmstead_Baker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
