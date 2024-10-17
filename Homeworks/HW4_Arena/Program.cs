@@ -17,6 +17,8 @@
  * Other notes:
  * 
  */
+using System.Security.Cryptography;
+
 namespace HW4_Arena
 {
     /// <summary>
@@ -66,6 +68,17 @@ namespace HW4_Arena
         const int DamageMult = 5;
         const int EnemyAttack = 5;
         const int EnemyMaxHealth = 50;
+
+        const int EnemyBaseHealth = 10;
+
+        // Random object to be used for enemy types
+        static Random rng = new Random();
+
+        // Variables to hold player's console color choices
+        static ConsoleColor wallColor;
+        static ConsoleColor enemyColor;
+        static ConsoleColor playerColor;
+        static ConsoleColor startExitColor;
 
         /// <summary>
         /// DO NOT CHANGE ANY CODE IN MAIN!!!
@@ -222,6 +235,7 @@ namespace HW4_Arena
         {
             // TODO: Implement the Fight method
 
+            // - Choose a random enemy name
             // - Initialize the enemy's health
             // - Print the start of combat event
 
@@ -231,7 +245,130 @@ namespace HW4_Arena
             // Loop will not have a condition, and will run until a return condition qualifies
 
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            return 0; // replace this. it's just so the starter code compiles.
+            string[] enemyTypes = 
+            { 
+                "goat", "colossal squid", "man-eating tortoise", "birch tree", "mega-gnome"
+            };
+
+            int[] enemyHealthMult = {3,4,5,6};
+
+            // Randomize enemy
+            string enemyName = enemyTypes[rng.Next(0, enemyTypes.Length)];
+            int enemyHealth = enemyHealthMult[rng.Next(0, enemyHealthMult.Length)];
+            enemyHealth *= EnemyBaseHealth;
+
+            // Let the player know that combat has started
+            Console.WriteLine("An angry {0} attacks you!", enemyName);
+
+            //Begin turn loop
+            do
+            {
+                // Show the player the current stats
+                Console.WriteLine
+                    (
+                    "\nYour current health is {0}, the {1}'s health is {2}",
+                    stats[Health], enemyName, enemyHealth
+                    );
+
+                // Prompt the player for action
+                switch
+                (
+                    SmartConsole.GetPromptedInput
+                    ("What would you like to do? Attack/Run >").ToLower()
+                )
+                // Run relevant operation
+                {
+                    // --- Player attacks
+                    case "attack":
+                        // Damage enemy
+                        Console.WriteLine
+                            (
+                            "You swing at the {0} for {1} damage", 
+                            enemyName, stats[Strength] * DamageMult
+                            );
+                        enemyHealth -= stats[Strength] * DamageMult;
+
+                        // Damage player
+                        Console.WriteLine
+                            (
+                            "The {0} charges at you for {1} damage.",
+                            enemyName, EnemyAttack - stats[Dexterity]
+                            );
+                        stats[Health] -= (EnemyAttack - stats[Dexterity]);
+
+                        // Check if the fight is over
+                        // Player and enemy both run out of health
+                        if (stats[Health] <= 0 && enemyHealth <= 0)
+                        {
+                            Console.WriteLine
+                                (
+                                "You defeated the {0}, but at great cost," +
+                                " as you have also lost the fight.",
+                                enemyName
+                                );
+
+                            return Draw;
+                        }
+                        // Player wins
+                        else if (enemyHealth <= 0)
+                        {
+                            Console.WriteLine
+                                (
+                                "\nYou have defeated the {0}! Congradulations!",
+                                enemyName
+                                );
+
+                            return Win;
+                        }
+                        // Player loses
+                        else if (stats[Health] <= 0)
+                        {
+                            Console.WriteLine
+                                (
+                                "Your wounds are too much, the {0} wins this time.",
+                                enemyName
+                                );
+
+                            return Lose;
+                        }
+
+                        break;
+
+                    // --- Player runs
+                    case "run":
+                        return Run;
+
+                    // --- Bad input
+                    default:
+                        Console.WriteLine("Command not recognized! Oh no! LOOK OUT!!");
+
+                        // Damage player
+                        Console.WriteLine
+                            (
+                            "The {0} charges at you for {1} damage.",
+                            enemyName, EnemyAttack - stats[Dexterity]
+                            );
+                        stats[Health] -= (EnemyAttack - stats[Dexterity]);
+
+                        if (stats[Health] <= 0)
+                        {
+                            Console.WriteLine
+                                (
+                                "Your wounds are too much. " +
+                                "The last thing you see is the {0} proclaiming, " +
+                                "\"You should have been more careful with your input!\"",
+                                enemyName
+                                );
+
+                            return Lose;
+                        }
+
+                        break;
+                }
+
+
+            } while (true);
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
@@ -250,9 +387,47 @@ namespace HW4_Arena
             //     For each stat, calculate the new max based on the previous input
             //     The final unassigned stat points can also be determined from this calculation
 
+            // - This method will also be used to get console customization input
+
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             // Get name and introduce program
-            return "???";
+            string name = SmartConsole.GetPromptedInput("Welcome, please enter your name: >");
+            int points = MaxPoints;
+            string[] statTypes = { "Strength", "Dexterity", "Constitution" };
+
+            Console.WriteLine
+                (
+                "\nHello {0}, I'll need a bit more information from you before we can start." +
+                "\nYou have {1} points to build your character and " +
+                "three attributes to allocate them to.\n",
+                name, MaxPoints
+                );
+
+            // Prompt user for stats
+            for (int i = 0; i < statTypes.Length; i++)
+            {
+                statsArray[i] = SmartConsole.GetValidIntegerInput
+                    (
+                    $"How many points would you like to allocate to {statTypes[i]}? >",
+                    1, points
+                    );
+                points -= statsArray[i];
+
+                if (i < 2)
+                {
+                    Console.WriteLine($"You have {points} points remaining.\n");
+                }
+            }
+            Console.WriteLine($"You left {points} points unused.\n");
+
+            // Calculate health and return name
+            statsArray[Health] = statsArray[Constitution] * HealthMult;
+
+
+            // Customize Console colors
+            ConsoleCustomization();
+
+            return name;
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         }
 
@@ -282,7 +457,52 @@ namespace HW4_Arena
             //     Insert player start and exit last
 
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            char[,] arena = null; // replace this. it's just so the starter code compiles.
+            // Prompt for arena size and construct array
+            int arenaWidth = SmartConsole.GetValidIntegerInput
+                ("How wide should the arena be? (Enter a value from 10 to 50) >", 10, 50);
+            int arenaHeight = SmartConsole.GetValidIntegerInput
+                ("How tall should the arena be? (Enter a value from 10 to 50) >", 10, 50);
+
+            char[,] arena = new char[arenaHeight, arenaWidth];
+
+            // Fill arena array
+            for (int i = 0; i < arenaHeight; i++)
+            {
+                for (int j = 0; j < arenaWidth; j++)
+                {
+                    // Build walls
+                    if (j == 0 || i == 0 || j == arenaWidth - 1 || i == arenaHeight - 1)
+                    {
+                        arena[i, j] = Wall;
+                    }
+                    
+                    // Place enemies
+                    else if (i % EnemySpacing == 0 && j % EnemySpacing == 0)
+                    {
+                        arena[i, j] = Enemy;
+                        numEnemies++;
+                    }
+
+                    // Place start and exit
+                    else if (i == 1 && j == 1)
+                    {
+                        arena[i, j] = PlayerStart;
+                    }
+
+                    else if (j == arenaWidth - 2 && i == arenaHeight - 2)
+                    {
+                        arena[i, j] = Exit;
+                    }
+
+                    // Fill blank spaces
+                    else
+                    {
+                        arena[i, j] = Empty;
+                    }
+                }
+            }
+
+
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
             // All done
@@ -304,7 +524,103 @@ namespace HW4_Arena
             // - Check for the character in each index and set the color accordingly
 
             // ~~~~ YOUR CODE STARTS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            // Loop through each element of the array
+            for (int i = 0; i < arena.GetLength(0); i++)
+            {
+                for (int j = 0; j < arena.GetLength(1); j++)
+                {
+                    // Check if this is where the player should go
+                    if (i == playerLoc[0] && j == playerLoc[1])
+                    {
+                        Console.ForegroundColor = playerColor;
+                        Console.Write(Player);
+                    }
+                    else
+                    {
+                        // Determine color
+                        switch (arena[i, j]) 
+                        {
+                            case Wall:
+                                Console.ForegroundColor = wallColor;
+                                break;
+
+                            case Enemy:
+                                Console.ForegroundColor = enemyColor;
+                                break;
+
+                            case PlayerStart:
+                            case Exit:
+                                Console.ForegroundColor = startExitColor;
+                                break;
+
+                            default:
+                                Console.ForegroundColor = ConsoleColor.White;
+                                break;
+
+                        }
+
+                        // Print character
+                        Console.Write(arena[i, j]);
+                    }
+                        
+                }
+
+                // New line to seperate each row
+                Console.WriteLine();
+                    
+            }
+            // Reset console color
+            Console.ForegroundColor = ConsoleColor.White;
+           
             // ~~~~ YOUR CODE STOPS HERE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        }
+
+        /// <summary>
+        /// Method to customize the console colors
+        /// </summary>
+        private static void ConsoleCustomization()
+        {
+            // Create an array of values of ColsoleColor
+            // (Found in Microsoft's .NET Documentation)
+            ConsoleColor[] colors = (ConsoleColor[])ConsoleColor.GetValues(typeof(ConsoleColor));
+
+            // Introduce the process and print the player's choices
+            Console.WriteLine("Let's customize your dungeon!");
+            Console.WriteLine("Here's what we've got available:");
+
+            for (int i = 0; i < colors.Length; i++)
+            {
+                Console.ForegroundColor = colors[i];
+                Console.WriteLine("\t{0}: {1}", i, colors[i]);
+            }
+
+            // Empty space to keep Console clean
+            Console.WriteLine();
+
+
+            // Prompt the player for each element
+            Console.WriteLine("Now, please choose a color from the list from each element");
+            Console.WriteLine("Enter a number (1-15) for each.\n");
+
+            wallColor = colors
+                [
+                SmartConsole.GetValidIntegerInput("Wall color: >",0,15)
+                ];
+
+            enemyColor = colors
+                [
+                SmartConsole.GetValidIntegerInput("Enemy color: >",0,15)
+                ];
+
+            playerColor = colors
+                [
+                SmartConsole.GetValidIntegerInput("Player color: >", 0, 15)
+                ];
+
+            startExitColor = colors
+                [
+                SmartConsole.GetValidIntegerInput("Start and Exit door color: >", 0, 15)
+                ];
         }
     }
 }

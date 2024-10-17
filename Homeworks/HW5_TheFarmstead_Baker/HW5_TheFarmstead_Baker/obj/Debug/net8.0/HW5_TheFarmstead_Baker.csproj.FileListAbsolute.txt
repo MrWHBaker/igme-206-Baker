@@ -1,0 +1,15 @@
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\bin\Debug\net8.0\HW5_TheFarmstead_Baker.exe
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\bin\Debug\net8.0\HW5_TheFarmstead_Baker.deps.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\bin\Debug\net8.0\HW5_TheFarmstead_Baker.runtimeconfig.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\bin\Debug\net8.0\HW5_TheFarmstead_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\bin\Debug\net8.0\HW5_TheFarmstead_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.AssemblyInfoInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.AssemblyInfo.cs
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.csproj.CoreCompileInputs.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.sourcelink.json
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\refint\HW5_TheFarmstead_Baker.dll
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.pdb
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\HW5_TheFarmstead_Baker.genruntimeconfig.cache
+C:\Users\ybme0\OneDrive\Desktop\Homework\gameDevProgrammers\github\igme-206-Baker\Homeworks\HW5_TheFarmstead_Baker\HW5_TheFarmstead_Baker\obj\Debug\net8.0\ref\HW5_TheFarmstead_Baker.dll
