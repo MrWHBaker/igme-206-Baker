@@ -2,6 +2,8 @@
 // DO NOT modify anything in this file *EXCEPT* where marked
 // explicitly with TODO comments!
 //****************************************************************
+using System.Runtime.CompilerServices;
+
 namespace GDP_Exam_1
 {
     /// <summary>
@@ -21,7 +23,7 @@ namespace GDP_Exam_1
             // TODO: Complete the property
             get 
             {
-                return 0; // REPLACE
+                return items.Count;
             }
         }
 
@@ -31,6 +33,8 @@ namespace GDP_Exam_1
         /// </summary>
         public void AddItem(Item itemToAdd)
         {
+            // Add the provided item to the end of the list
+            items.Add(itemToAdd);
         }
 
         /// <summary>
@@ -39,6 +43,19 @@ namespace GDP_Exam_1
         /// </summary>
         public void PrintSummary()
         {
+            // First, print the number of items
+            Console.WriteLine($"The inventory currenty has {items.Count} item(s):");
+
+            // Iterate the list and run each Item's ToString
+            foreach (Item item in items)
+            {
+                Console.WriteLine("\t" + item.ToString());
+            }
+
+            // Print out total weight and weapon damage
+            Console.WriteLine("Total weight: {0}", CalculateTotalWeight());
+            Console.WriteLine("Total damage from weapon(s): {0}", CalculateTotalDamage());
+
         }
 
 
@@ -48,7 +65,14 @@ namespace GDP_Exam_1
         /// </summary>
         private double CalculateTotalWeight()
         {
+            // Iterate list and sum each weight
             double total = 0;
+
+            foreach (Item item in items)
+            {
+                total += item.Weight;
+            }
+
             return total;
         }
 
@@ -56,12 +80,24 @@ namespace GDP_Exam_1
         /// TODO: Complete CalculateTotalWeight method to return the total
         /// damage of all weapons in the inventory
         /// </summary>
+        
         private double CalculateTotalDamage()
         {
             double total = 0;
-            return total;
-        }
 
+            foreach (Item item in items)
+            {
+                if (item is Weapon)
+                {
+                    // Cast as a weapon
+                    Weapon weapon = (Weapon)item;
+                    total += weapon.Damage;
+                }
+            }
+
+            return Math.Round(total,2);
+        }
+        
         /// <summary>
         /// Loads items from a file line by line
         /// </summary>
@@ -70,13 +106,40 @@ namespace GDP_Exam_1
             StreamReader input = null;
 
             // TODO: Add exception handling
+            try
+            {
                 input = new StreamReader(filename);
                 string line = null;
-                while((line = input.ReadLine()) != null)
+
+                while ((line = input.ReadLine()) != null)
                 {
                     // TODO: For each line, seperate the data and create
                     // new Food or Weapon objects appropriately
+                    string[] nextItem = line.Split('~');
+                    Item newItem;
+
+                    if (nextItem[0] == "Weapon")
+                    {
+                        newItem = new Weapon
+                        (nextItem[1], int.Parse(nextItem[2]), double.Parse(nextItem[3]));
+                    }
+                    // Anything else must be food
+                    else
+                    {
+                        newItem = new Food
+                        (nextItem[1], int.Parse(nextItem[2]), double.Parse(nextItem[3]));
+                    }
+
+                    // Add it to the list
+                    items.Add(newItem);
                 }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Uh oh: Could not find file '{0}'.", filename);
+            }
+
+            // Close the file
             if (input != null)
             {
                 input.Close();

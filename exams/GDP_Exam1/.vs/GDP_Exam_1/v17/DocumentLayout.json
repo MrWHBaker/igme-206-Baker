@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|d:\\profiles\\whb4352\\documents\\githubrepos\\igme-206-baker\\exams\\gdp_exam1\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9268FAA5-45A3-43DE-B576-34685EB152AC}|GDP_Exam_1.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAoAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwGMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:07:05.647Z",
               "IsPinned": true,
@@ -48,20 +48,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Food.cs",
-              "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Food.cs",
-              "RelativeDocumentMoniker": "Food.cs",
-              "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Food.cs",
-              "RelativeToolTip": "Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.cs",
+              "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Inventory.cs",
+              "RelativeToolTip": "Inventory.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAswIUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:09:23.85Z",
+              "WhenOpened": "2024-10-15T16:07:40.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Item.cs",
               "RelativeDocumentMoniker": "Item.cs",
@@ -69,31 +69,34 @@
               "RelativeToolTip": "Item.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:09:10.313Z"
+              "WhenOpened": "2024-10-15T16:09:10.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Weapon.cs",
               "RelativeDocumentMoniker": "Weapon.cs",
               "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Weapon.cs",
               "RelativeToolTip": "Weapon.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wDgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:08:13.396Z"
+              "WhenOpened": "2024-10-15T16:08:13.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Inventory.cs",
-              "RelativeDocumentMoniker": "Inventory.cs",
-              "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Inventory.cs",
-              "RelativeToolTip": "Inventory.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Food.cs",
+              "RelativeDocumentMoniker": "Food.cs",
+              "ToolTip": "D:\\Profiles\\whb4352\\Documents\\githubRepos\\igme-206-Baker\\exams\\GDP_Exam1\\Food.cs",
+              "RelativeToolTip": "Food.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwD8AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:07:40.514Z"
+              "WhenOpened": "2024-10-15T16:09:23.85Z",
+              "EditorCaption": ""
             }
           ]
         }

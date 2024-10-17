@@ -1,0 +1,15 @@
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.exe
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.deps.json
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.runtimeconfig.json
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\bin\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfoInputs.cache
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.AssemblyInfo.cs
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.csproj.CoreCompileInputs.cache
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.sourcelink.json
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.dll
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\refint\GDP_Exam_1.dll
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.pdb
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\GDP_Exam_1.genruntimeconfig.cache
+D:\Profiles\whb4352\Documents\githubRepos\igme-206-Baker\exams\GDP_Exam1\obj\Debug\net8.0\ref\GDP_Exam_1.dll
