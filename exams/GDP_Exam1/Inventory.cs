@@ -118,6 +118,7 @@ namespace GDP_Exam_1
                     string[] nextItem = line.Split('~');
                     Item newItem;
 
+                    // Check if this is a weapon
                     if (nextItem[0] == "Weapon")
                     {
                         newItem = new Weapon
@@ -134,9 +135,14 @@ namespace GDP_Exam_1
                     items.Add(newItem);
                 }
             }
-            catch (Exception e)
+            catch (System.IO.FileNotFoundException e)
             {
-                Console.WriteLine("Uh oh: Could not find file '{0}'.", filename);
+                // Clean up error
+                // I think there's a better way to do this, But I wanted to be careful of time
+                string error = e.ToString();
+                string[] cleanError = error.Split('\'');
+
+                Console.WriteLine("Uh oh: Could not find file '{0}'.", cleanError[1]);
             }
 
             // Close the file

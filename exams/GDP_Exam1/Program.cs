@@ -26,6 +26,7 @@ namespace GDP_Exam_1
      * This Program is for Practical Exam 1
      * IGME-206-01 Fall 2024
      * Rochester Institute of Technology
+     * 
      */
     class Program
     {
