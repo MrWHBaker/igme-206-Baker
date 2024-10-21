@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\homeworks\\hw6_critterfarm_baker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\homeworks\\hw6_critterfarm_baker\\critter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:critter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\homeworks\\hw6_critterfarm_baker\\crittermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:crittermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|c:\\users\\ybme0\\onedrive\\desktop\\homework\\gamedevprogrammers\\github\\igme-206-baker\\homeworks\\hw6_critterfarm_baker\\smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D332F-A905-4DE4-9E03-C42186225430}|HW6_CritterFarm.csproj|solutionrelative:smartconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:50.048Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmartConsole.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\SmartConsole.cs",
+              "RelativeDocumentMoniker": "SmartConsole.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\SmartConsole.cs",
+              "RelativeToolTip": "SmartConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:50.994Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CritterManager.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\CritterManager.cs",
+              "RelativeDocumentMoniker": "CritterManager.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\CritterManager.cs",
+              "RelativeToolTip": "CritterManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Critter.cs",
+              "DocumentMoniker": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\Critter.cs",
+              "RelativeDocumentMoniker": "Critter.cs",
+              "ToolTip": "C:\\Users\\ybme0\\OneDrive\\Desktop\\Homework\\gameDevProgrammers\\github\\igme-206-Baker\\Homeworks\\HW6_CritterFarm_Baker\\Critter.cs",
+              "RelativeToolTip": "Critter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:43:47.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
