@@ -7,7 +7,10 @@
 namespace HW6_CritterFarm
 {
     /// <summary>
-    /// TODO: Add your own summary of this class!
+    /// Critter Manager class - Responsible for creating, storing and handling all
+    /// critters created in the program. All methods and properties are public and
+    /// can be accessed by the program at large, but all fields are private to the 
+    /// class.
     /// </summary>
     class CritterManager
     {

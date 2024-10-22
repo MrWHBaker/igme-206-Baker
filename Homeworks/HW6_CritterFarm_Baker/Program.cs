@@ -57,7 +57,7 @@ namespace HW6_CritterFarm
             // TODO: Pass the correct filename to the critter manager constructor
             //       so that it will create a file "critter.txt" in the same folder as
             //       the source code
-            CritterManager manager = new CritterManager("REPLACE THIS STRING");
+            CritterManager manager = new CritterManager("../../../critter.txt");
 
             // ------------------------------------------------------------------
             // Welcome the user

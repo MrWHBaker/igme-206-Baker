@@ -43,7 +43,10 @@ namespace HW6_CritterFarm
     }
 
     /// <summary>
-    /// TODO: Add your own summary of this class!
+    /// This is the Critter parent class - it acts as the abstract base for a 
+    /// typed critter subclass, holding basic mechanics and information necessary
+    /// to all critter types.
+    /// Critter subclasses will need overwrite the abstract UpdateMood method
     /// </summary>
     abstract class Critter
     {
@@ -154,8 +157,12 @@ namespace HW6_CritterFarm
         /// Updates mood variable based on current happiness level.
         /// Called whenever time passes.
         /// 
-        /// TODO: Add a comment explaining why it makes sense for this method
-        ///         to be abstract, but still defined here in the parent class.
+        /// UpdateMood is abstract because it's an essential function for all
+        /// critter types and will be run through the PassTime method, but
+        /// each critter type can have a unique set of instructions
+        /// based on it.
+        /// For the manager to work, critters need their information to be properly
+        /// filled out. Hunger level, boredom level, mood, etc.
         /// </summary>
         protected abstract void UpdateMood();
 
