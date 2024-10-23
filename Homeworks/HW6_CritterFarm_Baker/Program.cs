@@ -29,8 +29,8 @@ namespace HW6_CritterFarm
             Console.ForegroundColor = ConsoleColor.White;
 
             // TODO: Uncomment for which thing you want to test.
-            TestCritters();
-            //RunCritterFarm();
+            //TestCritters();
+            RunCritterFarm();
         }
 
         /// <summary>
@@ -40,8 +40,56 @@ namespace HW6_CritterFarm
         static void TestCritters()
         {
             Console.WriteLine("**** Testing Critter sub-classes...");
+            Console.WriteLine();
 
-            // TODO: Add code here to test your critter classes!
+            List<Critter> critters = new List<Critter>();
+
+            // Create some new critters, and load the critters from the file
+            Critter newCat = new Cat("New Cat");
+            critters.Add(newCat);
+            Critter newDog = new Dog("New Puppy");
+            critters.Add(newDog);
+            Critter newHorse = new Horse("New Horse");
+            critters.Add(newHorse);
+
+            Critter namedCat = new Cat("Shiro", 10, 10);
+            critters.Add(namedCat);
+            Critter namedDog = new Dog("Pax", 10, 10);
+            critters.Add(namedDog);
+            Critter namedHorse = new Horse("Aiden", 10, 10);
+            critters.Add(namedHorse);
+
+            // Print each critter's information
+            foreach (Critter critter in critters)
+            {
+                Console.WriteLine(critter.ToString());
+            }
+            Console.WriteLine();
+
+            // Test each Critter's behavior
+            foreach (Critter critter in critters)
+            {
+                critter.Eat();
+                critter.Play();
+                critter.Talk();
+                critter.PassTime();
+
+                
+                if (critter is Cat)
+                {
+                    Cat c = (Cat)critter;
+                    c.CauseChaos();
+                }
+                
+                Console.WriteLine();
+            }
+
+            // Print each critter's information again
+            foreach (Critter critter in critters)
+            {
+                Console.WriteLine(critter.ToString());
+            }
+
         }
 
         /// <summary>

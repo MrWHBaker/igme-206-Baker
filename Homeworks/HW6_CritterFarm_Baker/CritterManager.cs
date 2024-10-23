@@ -4,6 +4,9 @@
 // - To change the critter types available
 // ------------------------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
+
 namespace HW6_CritterFarm
 {
     /// <summary>
@@ -120,7 +123,7 @@ namespace HW6_CritterFarm
 
                 // The switch statement cases and constructor calls below need to match YOUR critter types
                 // TODO: Uncomment this once your child classes exist.
-                /*
+                
                 switch (type)
                 {
                     case CritterType.Cat:
@@ -141,7 +144,7 @@ namespace HW6_CritterFarm
                         i--; // Didn't actually add a critter so go back 1 with our lcv and try again.
                         break;
                 }
-                */
+                
             }
         }
 
@@ -165,6 +168,113 @@ namespace HW6_CritterFarm
             // ********************************
 
             // TODO: Implement LoadCrittersFromFile()
+
+            // Create a StreamWriter and attempt to open the file
+            StreamReader reader = null;
+            string line = "";
+            
+            try
+            {
+                reader = new StreamReader(filename);
+                
+                while ((line = reader.ReadLine()) != null)
+                {
+                    bool goodData;
+
+                    // Split the line into an array
+                    string[] critterInfo = line.Split('|');
+
+                    // Create a new Critter using the data
+                    CritterType critterType;
+                    goodData = Enum.TryParse(critterInfo[0], out critterType);
+
+                    if (!goodData)
+                    {
+                        SmartConsole.PrintWarning
+                                (
+                                    $"{critterInfo[0]}s aren't supported yet. " +
+                                    $"Skipping this line: {line}"
+                                );
+                    }
+                    else
+                    {
+
+                        string name = critterInfo[1];
+
+                        // Ensure that critter data is properly formatted before loading
+                        int hunger;
+                        goodData = int.TryParse(critterInfo[2], out hunger);
+
+                        int boredom;
+                        goodData = int.TryParse(critterInfo[2], out boredom);
+
+                        if (goodData)
+                        {
+                            switch (critterType)
+                            {
+                                case CritterType.Cat:
+                                    critterList.Add
+                                    (
+                                        new Cat
+                                        (
+                                            critterInfo[1],
+                                            int.Parse(critterInfo[2]),
+                                            int.Parse(critterInfo[3])
+                                        )
+                                    );
+                                    break;
+
+                                case CritterType.Dog:
+                                    critterList.Add
+                                    (
+                                        new Dog
+                                        (
+                                            critterInfo[1],
+                                            int.Parse(critterInfo[2]),
+                                            int.Parse(critterInfo[3])
+                                        )
+                                    );
+                                    break;
+
+                                case CritterType.Horse:
+                                    critterList.Add
+                                    (
+                                        new Horse
+                                        (
+                                            critterInfo[1],
+                                            int.Parse(critterInfo[2]),
+                                            int.Parse(critterInfo[3])
+                                        )
+                                    );
+                                    break;
+
+                                default:
+                                    SmartConsole.PrintWarning
+                                    (
+                                        $"{critterInfo[0]}s aren't supported yet. " +
+                                        $"Skipping this line: {line}"
+                                    );
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            SmartConsole.PrintWarning("Corrupt data. Skipping this line: " + line);
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SmartConsole.PrintError("Critter save file doesn't exist or can't be opened.");
+                SmartConsole.PrintError("\nYou'll need to set up a new critter farm.");
+                SetupCritters();
+            }
+
+            // Give final result message and close the file
+            reader.Close();
+            SmartConsole.PrintSuccess($"{critterList.Count} critters loaded successfully");
+            
         }
 
 
@@ -182,6 +292,39 @@ namespace HW6_CritterFarm
             // ********************************
 
             // TODO: Implement SaveCrittersToFile()
+
+            // Create a StreamWriter and attempt to open the file
+            StreamWriter writer = null;
+            string line = "";
+
+            try
+            {
+
+                writer = new StreamWriter(filename);
+
+                foreach (Critter critter in critterList)
+                {
+                    writer.WriteLine
+                    (
+                        "{0}|{1}|{2}|{3}",
+                        critter.Name,
+                        critter.Type,
+                        critter.Hunger,
+                        critter.Boredom
+                    );
+                }
+            }
+            catch (Exception e)
+            {
+                SmartConsole.PrintError("Uh oh - Your critters may not have saved.");
+                SmartConsole.PrintError(e.Message);
+            }
+
+            // Close the file
+            if (writer != null)
+            {
+                writer.Close();
+            }
         }
 
         // ---------------------------------------------------------------------------------------------------------------
@@ -284,6 +427,14 @@ namespace HW6_CritterFarm
                 // TODO: Update this to call any child specific methods as well.
                 //       For example, in the demo, time passing calls the
                 //       the CauseMischeif method on any cats 25% of the time
+                if (c is Cat)
+                {
+                    if (rng.Next(1, 5) == 1)
+                    {
+                        Cat cat = (Cat)c;
+                        cat.CauseChaos();
+                    }
+                }
             }
         }
 
