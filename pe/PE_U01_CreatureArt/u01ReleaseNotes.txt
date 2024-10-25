@@ -1,0 +1,12 @@
+Game Project: PE U01 Geo Creature Art
+Creator: Wyatt Baker
+Version: 1.1
+Date: 10-25-24
+
+New features: 
+Added a light source
+
+Improvements:
+Adjusted the camera
+
+No known bugs
