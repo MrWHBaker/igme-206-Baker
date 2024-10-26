@@ -1,0 +1,12 @@
+Game Project: PE U02 Creature World
+Creator: Wyatt Baker
+Version: 1.0
+Date: 10-26-24
+
+New features: 
+Added the creature spawner and the player object
+
+Improvements:
+
+Known Bugs:
+The player moves at an angle when using the forward and back buttons. I didn't make any changes the provided code, so I have no idea what's causing this
