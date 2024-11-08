@@ -1,0 +1,16 @@
+Game Project: PE - U04 - 2D Vehicle
+Creator: Wyatt Baker
+Version: 1.0
+Date: 11-08-24
+
+New Features
+ * All features included in project instructions
+
+Fixes
+ * N/A
+
+Improvements
+ * N/A
+
+Known Bugs
+The vehicle starts off moving right which is inaccurate to the demo, but this was explicitly provided in the slides instructions so I left it as is.
