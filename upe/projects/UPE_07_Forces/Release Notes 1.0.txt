@@ -1,0 +1,16 @@
+Game Project: PE - U07 - Forces
+Creator: Wyatt Baker
+Version: 1.0
+Date: 11-16-24
+
+New Features
+ * All features included in project instructions
+
+Fixes
+ * N/A
+
+Improvements
+ * N/A
+
+Known Bugs
+ * N/A
