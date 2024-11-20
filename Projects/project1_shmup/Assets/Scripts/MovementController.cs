@@ -10,16 +10,26 @@ public class MovementController : MonoBehaviour
     Vector3 objectPosition = new Vector3(0, 0, 0);
 
     // How fast it should move in units per second
-    float speed = 4f;
+    float speed = 6f;
 
     // Direction vehicle is facing, must be normalized
-    Vector3 direction = new Vector3(1, 0, 0);   // or Vector3.right
+    Vector3 direction = new Vector3(0, 0, 0);   // or Vector3.right
 
     // The delta in position for a single frame
     Vector3 velocity = new Vector3(0, 0, 0);   // or Vector3.zero
 
     //[SerializeField]
     Vector2 windowSize = new Vector2(16, 10);
+
+    // Prepare to access sprite renderer
+    SpriteRenderer spriteRenderer;
+
+    [SerializeField]
+    private Sprite upSprite;
+    [SerializeField]
+    private Sprite downSprite;
+    [SerializeField]
+    private Sprite neutralSprite;
 
 
     // Method to recieve a direction vector from InputController
@@ -32,9 +42,9 @@ public class MovementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Grab the GameObject�s starting position
+        // Grab the GameObjects starting position
         objectPosition = transform.position;
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -46,27 +56,51 @@ public class MovementController : MonoBehaviour
         // Add velocity to position 
         objectPosition += velocity;
 
-        // Validate new calculated position
+        // Collide with screen edges
         if (Mathf.Abs(objectPosition.x) > windowSize.x / 2)
         {
-            objectPosition.x = -objectPosition.x;
+            objectPosition.x = Mathf.Sign(objectPosition.x)*windowSize.x/2;
+            velocity.x = 0;
         }
         if (Mathf.Abs(objectPosition.y) > windowSize.y / 2)
         {
-            objectPosition.y = -objectPosition.y;
+            objectPosition.y = Mathf.Sign(objectPosition.y) * windowSize.y / 2;
+            velocity.y = 0;
         }
 
-        // �Draw� this vehicle at that position
+        // Draw this vehicle at that position
         transform.position = objectPosition;
 
 
-        // Set the vehicle�s rotation to match the direction
-        if (direction != Vector3.zero)
+
+        // Animate sprite
+        if (direction.x > 0)
         {
-            transform.rotation = Quaternion.LookRotation(Vector3.back, direction); // for 2D rotation
+            transform.rotation = Quaternion.Euler(0, 0, -10);
+        }
+        else if (direction.x < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 10);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
 
-
+        
+        if (direction.y > 0)
+        {
+            spriteRenderer.sprite = upSprite;
+        }
+        else if (direction.y < 0)
+        {
+            spriteRenderer.sprite = downSprite;
+        }
+        else
+        {
+            spriteRenderer.sprite = neutralSprite;
+        }
+        
     }
 
 }

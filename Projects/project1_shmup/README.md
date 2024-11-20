@@ -9,28 +9,29 @@
 
 ## Game Design
 
--   Camera Orientation: _How are the art assets viewed from? (ie. topdown or side)_
--   Camera Movement: _How does the camera move in your game? (if at all)_
--   Player Health: _How are you handling player health? (healthbar, lives, ?)_
--   End Condition: _How does a game/round/level end?_
--   Scoring: _How does the player earn points in your game?_
+-   Camera Orientation: Side view
+-   Camera Movement: The camera wont actually move, but the game will simulate leftward scrolling
+-   Player Health: 3 hit points
+-   End Condition: Run out of health or last until the end of the level
+-   Scoring: Landing shots while missing as few as possible
+-   Edge of Screen Interaction: Stop
 
 ### Game Description
 
-_A brief explanation of your game. Inculde what is the objective for the player. Think about what would go on the back of a game box._
+The player controls an alien in a flying saucer, fending off the U.S. military as it tries to flee earth. Survive long enough for your hyperdrive to power up, and don't let the government shoot you down!
 
 ### Controls
 
 -   Movement
-    -   Up:
-    -   Down: 
-    -   Left:
-    -   Right:
--   Fire: 
+    -   Up: UP arrow
+    -   Down: DOWN arrow
+    -   Left: LEFT arrow
+    -   Right: RIGHT arrow
+-   Fire: Spacebar
 
 ## You Additions
 
-_List out what you added to your game to make it different for you_
+- All art assets by me
 
 ## Sources
 
