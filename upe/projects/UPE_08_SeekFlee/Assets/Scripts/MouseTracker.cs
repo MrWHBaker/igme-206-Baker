@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class MouseTracker : MonoBehaviour
 {
     private Camera cam;
+    private PhysicsObject physicsObject;
 
 
     // Method to apply a force toward the cursor
@@ -26,12 +27,13 @@ public class MouseTracker : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
+        physicsObject = GetComponent<PhysicsObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        physicsObject.ApplyForce(MousePuller(physicsObject.Position));
     }
 }
 

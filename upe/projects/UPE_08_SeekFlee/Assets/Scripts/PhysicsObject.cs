@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PhysicsObject : MonoBehaviour
 {
     // ======== FIELDS =============================================================================
-    
+
     private Vector3 position;
     private Vector3 direction;
     private Vector3 velocity;
     private Vector3 acceleration;
+    //private Quaternion rotation;
 
     [SerializeField]
     private float mass;
+
+    [SerializeField]
+    public float radius;
 
     // External force detail
     [SerializeField]
@@ -27,7 +32,16 @@ public class PhysicsObject : MonoBehaviour
     private float maxSpeed;
 
 
-    MouseTracker mouseTracker;
+    public Vector3 Position
+    {
+        get { return position; }
+        set { position = value; }
+    }
+
+    public Vector3 Velocity
+    {
+        get { return velocity; }
+    }
 
 
     // ======== Force application methods ==========================================================
@@ -51,6 +65,14 @@ public class PhysicsObject : MonoBehaviour
     }
 
     // OPTIONAL apply rotation
+    private void ApplyRotation()
+    {
+
+        float rotAngle = 360 -(Mathf.Atan2(velocity.x, velocity.y) * Mathf.Rad2Deg);
+        Quaternion rotation = Quaternion.Euler(0, 0, rotAngle);
+
+        transform.rotation = rotation;
+    }
     
 
     // Method to bounce off window edges
@@ -71,13 +93,17 @@ public class PhysicsObject : MonoBehaviour
         }    
     }
 
+    // Method to apply a provided force
+    public void ApplyForce(Vector3 force)
+    {
+        acceleration += (force / mass);
+    }
 
 
     // ======== Standard behavior ================================================================
     // Start is called before the first frame update
     void Start()
     {
-        mouseTracker = GetComponent<MouseTracker>();
         position = transform.position;
     }
 
@@ -89,8 +115,6 @@ public class PhysicsObject : MonoBehaviour
         if (hasGravity) { ApplyGravity(); }
         if (hasFriction) { ApplyFriction(); }
 
-        // Apply a force toward the cursor
-        //acceleration += mouseTracker.MousePuller(position)/mass;
 
 
 
@@ -108,6 +132,9 @@ public class PhysicsObject : MonoBehaviour
 
         // Reset accelleration
         acceleration = Vector3.zero;
+
+        // Apply rotation
+        ApplyRotation();
 
     }
 }
