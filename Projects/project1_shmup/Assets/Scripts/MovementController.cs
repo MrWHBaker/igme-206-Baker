@@ -16,10 +16,10 @@ public class MovementController : MonoBehaviour
     Vector3 direction = new Vector3(0, 0, 0);   // or Vector3.right
 
     // The delta in position for a single frame
-    Vector3 velocity = new Vector3(0, 0, 0);   // or Vector3.zero
+    public Vector3 velocity = new Vector3(0, 0, 0);   // or Vector3.zero
 
     //[SerializeField]
-    Vector2 windowSize = new Vector2(16, 10);
+    Vector2 gameSize = new Vector2(7.4f, 4.4f);
 
     // Prepare to access sprite renderer
     SpriteRenderer spriteRenderer;
@@ -30,6 +30,7 @@ public class MovementController : MonoBehaviour
     private Sprite downSprite;
     [SerializeField]
     private Sprite neutralSprite;
+
 
 
     // Method to recieve a direction vector from InputController
@@ -57,14 +58,14 @@ public class MovementController : MonoBehaviour
         objectPosition += velocity;
 
         // Collide with screen edges
-        if (Mathf.Abs(objectPosition.x) > windowSize.x / 2)
+        if (Mathf.Abs(objectPosition.x) > gameSize.x)
         {
-            objectPosition.x = Mathf.Sign(objectPosition.x)*windowSize.x/2;
+            objectPosition.x = Mathf.Sign(objectPosition.x)*gameSize.x;
             velocity.x = 0;
         }
-        if (Mathf.Abs(objectPosition.y) > windowSize.y / 2)
+        if (Mathf.Abs(objectPosition.y) > gameSize.y)
         {
-            objectPosition.y = Mathf.Sign(objectPosition.y) * windowSize.y / 2;
+            objectPosition.y = Mathf.Sign(objectPosition.y) * gameSize.y;
             velocity.y = 0;
         }
 

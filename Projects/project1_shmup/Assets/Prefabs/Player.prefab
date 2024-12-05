@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7741119483419739280}
   - component: {fileID: 2450959905856603319}
   - component: {fileID: 8610527597271962881}
+  - component: {fileID: 8602684764237743087}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -111,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bbd9003a11c4a14085cabff4b093ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  up: {fileID: 21300000, guid: ad1268990f5ff724ab6abbacc78130d1, type: 3}
-  down: {fileID: 21300000, guid: 84b5c81757fe2034bba266e0ef663c1b, type: 3}
-  neutral: {fileID: 21300000, guid: ad283222e3edf9e4e93a93061de3efb1, type: 3}
+  upSprite: {fileID: 21300000, guid: ad1268990f5ff724ab6abbacc78130d1, type: 3}
+  downSprite: {fileID: 21300000, guid: 84b5c81757fe2034bba266e0ef663c1b, type: 3}
+  neutralSprite: {fileID: 21300000, guid: ad283222e3edf9e4e93a93061de3efb1, type: 3}
 --- !u!114 &8610527597271962881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,3 +169,22 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8602684764237743087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726468695533418788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd02e506c2604545b794e268ff87c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6969773968227928698, guid: 04a7fa8d4f6ce4849bc0fe1fff68a42a, type: 3}
+  maxX: 0.5
+  maxY: 0.5
+  minX: 0.5
+  minY: 0.5
+  isEnemy: 0
+  isHit: 0
