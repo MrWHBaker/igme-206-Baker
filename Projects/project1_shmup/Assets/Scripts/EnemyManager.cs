@@ -45,7 +45,9 @@ public class EnemyManager : MonoBehaviour
         }
         else
         {
-            bullet.transform.rotation = Quaternion.Euler(0,0,180);
+            bulletScript.verticalVelocityMod = verticalSpeed;
+
+            //bullet.transform.rotation = Quaternion.Euler(0,0,180);
             collisionManager.projectilesPlayer.Add(newBullet);
             bulletScript.isEnemy = false;
         }

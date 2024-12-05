@@ -6,31 +6,36 @@ using UnityEngine.InputSystem;
 public class UFO : Aircraft
 {
     // ======== FIELDS ============================================================================
-    //MovementController controller;
-    //Vector3 velocity = Vector3.zero;
+    private MovementController controller;
+    Vector3 velocity;
 
     // ======== METHODS ===========================================================================
 
     protected override void Attack()
     {
+        //float velocityMod = Mathf.Sign(velocity.y);
+
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            enemyManager.NewBullet(false, transform.position, 0);
+            enemyManager.NewBullet(false, transform.position, velocity.y * 10);
         }
     }
 
     
     // Start is called before the first frame update
-    /*
-    void Start()
+    
+    protected override void Start()
     {
-
+        controller = GetComponent<MovementController>();
+        base.Start();
     }
+
     
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        
+        velocity = controller.velocity;
+        base.Update();
     }
-    */
+    
 }
