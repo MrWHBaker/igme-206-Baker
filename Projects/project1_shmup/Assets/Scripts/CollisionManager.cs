@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class CollisionManager : MonoBehaviour
 {
@@ -68,6 +69,17 @@ public class CollisionManager : MonoBehaviour
         }
     }
 
+    // Remove null entries from a list
+    void CleanList(List<GameObject> list)
+    {
+        int listLength = list.Count;
+        for (int i = listLength-1; i == 0; i -= 1)
+        {
+            if (list[i] == null) { list.RemoveAt(i); }
+        }
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,7 +89,10 @@ public class CollisionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        CleanList(enemies);
+        CleanList(projectilesPlayer);
+        CleanList(projectilesEnemy);
+        
         // Run the collision check between the player and enemies
         CheckCollision(player, enemies);
 

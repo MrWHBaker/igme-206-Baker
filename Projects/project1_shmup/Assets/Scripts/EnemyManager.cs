@@ -7,7 +7,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     // ======== FIELDS ============================================================================
-    CollisionManager collisionManager;
+    public CollisionManager collisionManager;
 
     // Enemy types
     [SerializeField]

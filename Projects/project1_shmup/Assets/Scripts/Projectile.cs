@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Projectile : CollidableObject
 {
     // ======== FIELDS ============================================================================
     [SerializeField]
-    public Vector3 velocity = new Vector3(5, 0, 0);
+    public Vector3 velocity = new Vector3(8, 0, 0);
     public float verticalVelocityMod;
 
     // ======== METHODS ===========================================================================
@@ -29,6 +30,10 @@ public class Projectile : CollidableObject
 
         if (Mathf.Abs(transform.position.x) > 8f)
         {
+            /*
+            if (isEnemy) { enemyManager.collisionManager.projectilesEnemy.Remove(this.gameObject); }
+            else { enemyManager.collisionManager.projectilesPlayer.Remove(this.gameObject); }
+            */
             Destroy(gameObject);
         }
 
