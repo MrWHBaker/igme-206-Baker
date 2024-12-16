@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.UI;
+//using UnityEditor.UI;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
     // ======== FIELDS ============================================================================
     public CollisionManager collisionManager;
+    private float spawnTimer = 0f;
+    private float spawnRequirement = 5f;
 
     // Enemy types
     [SerializeField]
@@ -26,8 +28,8 @@ public class EnemyManager : MonoBehaviour
         collisionManager.enemies.Add(newJet);
         FighterJet jetScript = newJet.GetComponent<FighterJet>();
 
-        jetScript.enemyManager = this.GetComponent<EnemyManager>();
-        
+        jetScript.enemyManager = gameObject.GetComponent<EnemyManager>();
+
     }
 
     // method to spawn a bullet
@@ -36,6 +38,7 @@ public class EnemyManager : MonoBehaviour
         GameObject newBullet = Instantiate(bullet, location, Quaternion.identity);
         Projectile bulletScript = newBullet.GetComponent<Projectile>();
 
+        bulletScript.enemyManager = gameObject.GetComponent<EnemyManager>();
         
 
         if (isEnemy)
@@ -66,6 +69,12 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Spawn enemies over time
+        if (spawnTimer >= spawnRequirement)
+        {
+            NewEnemy();
+            spawnTimer = Random.Range(0,3);
+        }
+        spawnTimer += Time.deltaTime;
     }
 }

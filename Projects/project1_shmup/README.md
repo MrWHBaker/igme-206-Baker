@@ -27,7 +27,7 @@ The player controls an alien in a flying saucer, fending off the U.S. military a
     -   Down: DOWN arrow
     -   Left: LEFT arrow
     -   Right: RIGHT arrow
--   Fire: Spacebar
+-   Fire: Mouse Click
 
 ## You Additions
 
@@ -35,12 +35,11 @@ The player controls an alien in a flying saucer, fending off the U.S. military a
 
 ## Sources
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+-   All sources created by me
 
 ## Known Issues
 
-_List any errors, lack of error checking, or specific information that I need to know to run your program_
+The enemy planes move much slower in the browser than in my Unity editor. I'm using DeltaTime, so I'm not sure how to fix this
 
 ### Requirements not completed
 

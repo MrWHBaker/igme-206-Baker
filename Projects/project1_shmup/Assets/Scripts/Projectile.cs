@@ -6,9 +6,9 @@ using UnityEngine;
 public class Projectile : CollidableObject
 {
     // ======== FIELDS ============================================================================
-    [SerializeField]
-    public Vector3 velocity = new Vector3(8, 0, 0);
+    private Vector3 velocity = new Vector3(8, 0, 0);
     public float verticalVelocityMod;
+    public int damage = 1;
 
     // ======== METHODS ===========================================================================
     
@@ -28,12 +28,12 @@ public class Projectile : CollidableObject
     {
         transform.position += velocity * Time.deltaTime;
 
-        if (Mathf.Abs(transform.position.x) > 8f)
+        if (Mathf.Abs(transform.position.x) > 8f || isHit)
         {
-            /*
-            if (isEnemy) { enemyManager.collisionManager.projectilesEnemy.Remove(this.gameObject); }
-            else { enemyManager.collisionManager.projectilesPlayer.Remove(this.gameObject); }
-            */
+            
+            if (isEnemy) { enemyManager.collisionManager.projectilesEnemy.Remove(gameObject); }
+            else { enemyManager.collisionManager.projectilesPlayer.Remove(gameObject); }
+            
             Destroy(gameObject);
         }
 

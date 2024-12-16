@@ -7,7 +7,6 @@ public class UFO : Aircraft
 {
     // ======== FIELDS ============================================================================
     private MovementController controller;
-    Vector3 velocity;
 
     // ======== METHODS ===========================================================================
 
@@ -17,7 +16,7 @@ public class UFO : Aircraft
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            enemyManager.NewBullet(false, transform.position, velocity.y * 10);
+            enemyManager.NewBullet(false, transform.position, velocity.y * 100);
         }
     }
 
@@ -35,6 +34,7 @@ public class UFO : Aircraft
     protected override void Update()
     {
         velocity = controller.velocity;
+        Attack();
         base.Update();
     }
     

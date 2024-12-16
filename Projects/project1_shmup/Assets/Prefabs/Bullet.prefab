@@ -104,3 +104,5 @@ MonoBehaviour:
   minY: 0.1
   isEnemy: 0
   isHit: 0
+  velocity: {x: 0, y: 0, z: 0}
+  verticalVelocityMod: 0

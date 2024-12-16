@@ -6,7 +6,7 @@ using UnityEngine;
 
 public abstract class CollidableObject : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    protected SpriteRenderer spriteRenderer;
     public EnemyManager enemyManager;
 
     // Holds information about an object's hitbox
