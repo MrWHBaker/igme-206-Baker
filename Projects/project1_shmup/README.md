@@ -11,22 +11,22 @@
 
 -   Camera Orientation: Side view
 -   Camera Movement: The camera wont actually move, but the game will simulate leftward scrolling
--   Player Health: 3 hit points
--   End Condition: Run out of health or last until the end of the level
--   Scoring: Landing shots while missing as few as possible
+-   Player Health: 5 hit points
+-   End Condition: Run out of health
+-   Scoring: Defeating enemies
 -   Edge of Screen Interaction: Stop
 
 ### Game Description
 
-The player controls an alien in a flying saucer, fending off the U.S. military as it tries to flee earth. Survive long enough for your hyperdrive to power up, and don't let the government shoot you down!
+The player controls an alien in a flying saucer, fending off the U.S. military as it tries to flee earth. Survive as long as you can and don't let the government shoot you down!
 
 ### Controls
 
 -   Movement
-    -   Up: UP arrow
-    -   Down: DOWN arrow
-    -   Left: LEFT arrow
-    -   Right: RIGHT arrow
+    -   Up: W
+    -   Down: S
+    -   Left: A
+    -   Right: D
 -   Fire: Mouse Click
 
 ## You Additions
@@ -39,9 +39,10 @@ The player controls an alien in a flying saucer, fending off the U.S. military a
 
 ## Known Issues
 
-The enemy planes move much slower in the browser than in my Unity editor. I'm using DeltaTime, so I'm not sure how to fix this
+
 
 ### Requirements not completed
 
-_If you did not complete a project requirement, notate that here_
+- No visual result for player collision
+
 

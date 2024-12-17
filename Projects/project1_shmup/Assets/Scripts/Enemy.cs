@@ -6,12 +6,15 @@ using UnityEngine;
 public abstract class Enemy : Aircraft
 {
     // ======== FIELDS ============================================================================
+    [SerializeField]
     protected GameObject target;
 
     protected Vector3 acceleration = Vector3.zero;
     protected Vector3 position;
     protected float mass;
     protected float maxSpeed;
+
+    protected int points;
 
     [SerializeField]
     protected Sprite upSprite;
@@ -99,22 +102,17 @@ public abstract class Enemy : Aircraft
     // Start is called before the first frame update
     protected override void Start()
     {
-        position.x = 9;
-        target = enemyManager.collisionManager.player;
-
-        // Random starting y position
-        position.y = Random.Range(-4, 4);
-        
         base.Start();
     }
     
     // Update is called once per frame
     protected override void Update()
     {
+        Behavior();
 
         // Update the enemy's position using forces
         velocity += acceleration * Time.deltaTime;
-        position += velocity;
+        position += velocity * Time.deltaTime;
 
         Animate();
 
@@ -132,7 +130,14 @@ public abstract class Enemy : Aircraft
 
         if (health <= 0 || position.x < -10)
         {
+
             enemyManager.collisionManager.enemies.Remove(gameObject);
+
+            if (health <= 0)
+            {
+                enemyManager.score += points;
+            }
+
 
             Destroy(gameObject);
         }

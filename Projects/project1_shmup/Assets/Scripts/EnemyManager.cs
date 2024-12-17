@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-//using UnityEditor.UI;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
@@ -9,26 +8,50 @@ public class EnemyManager : MonoBehaviour
     // ======== FIELDS ============================================================================
     public CollisionManager collisionManager;
     private float spawnTimer = 0f;
-    private float spawnRequirement = 5f;
+    private float spawnRequirement = 4f;
+    public bool spawning = true;
+    public int score = 0;
+
+    private Vector3 spawnpoint = new Vector3(10, 0, 0);
+
+    [SerializeField]
+    private TextMesh scoreDisplay;
 
     // Enemy types
     [SerializeField]
     private GameObject fighterJet;
+    [SerializeField]
+    private GameObject spyPlane;
 
     // Projectile types
     [SerializeField]
     private GameObject bullet;
+    
 
     // ======== METHODS ===========================================================================
 
     // Method to spawn an enemy
     private void NewEnemy()
     {
-        GameObject newJet = Instantiate(fighterJet);
-        collisionManager.enemies.Add(newJet);
-        FighterJet jetScript = newJet.GetComponent<FighterJet>();
+        // Choose a random enemy to spawn (Weighted for spy planes as 1 in 10
+        int enemyType = Random.Range(0, 5);
 
-        jetScript.enemyManager = gameObject.GetComponent<EnemyManager>();
+        if (enemyType == 1)
+        {
+            GameObject newSpy = Instantiate(spyPlane, spawnpoint, Quaternion.identity);
+            collisionManager.enemies.Add(newSpy);
+            SpyPlane spyScript = newSpy.GetComponent<SpyPlane>();
+
+            spyScript.enemyManager = gameObject.GetComponent<EnemyManager>();
+        }
+        else
+        {
+            GameObject newJet = Instantiate(fighterJet, spawnpoint, Quaternion.identity);
+            collisionManager.enemies.Add(newJet);
+            FighterJet jetScript = newJet.GetComponent<FighterJet>();
+
+            jetScript.enemyManager = gameObject.GetComponent<EnemyManager>();
+        }
 
     }
 
@@ -63,14 +86,17 @@ public class EnemyManager : MonoBehaviour
     void Start()
     {
         collisionManager = GetComponent<CollisionManager>();
-        NewEnemy();
+        scoreDisplay.text = ("Score: " + score);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Display the score
+        scoreDisplay.text = ("Score: " + score);
+
         // Spawn enemies over time
-        if (spawnTimer >= spawnRequirement)
+        if (spawnTimer >= spawnRequirement && spawning)
         {
             NewEnemy();
             spawnTimer = Random.Range(0,3);

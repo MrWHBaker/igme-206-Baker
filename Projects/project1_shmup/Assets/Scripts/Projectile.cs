@@ -32,8 +32,12 @@ public class Projectile : CollidableObject
         {
             
             if (isEnemy) { enemyManager.collisionManager.projectilesEnemy.Remove(gameObject); }
-            else { enemyManager.collisionManager.projectilesPlayer.Remove(gameObject); }
-            
+            else 
+            { 
+                enemyManager.collisionManager.projectilesPlayer.Remove(gameObject);
+            }
+           
+
             Destroy(gameObject);
         }
 

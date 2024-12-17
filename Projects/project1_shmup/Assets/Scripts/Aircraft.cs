@@ -13,7 +13,6 @@ public abstract class Aircraft : CollidableObject
 
     // Method to fire bullets
     protected abstract void Attack();
-    //protected abstract void TakeHit();
     
     
     // Start is called before the first frame update

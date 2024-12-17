@@ -25,11 +25,11 @@ public class MovementController : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     [SerializeField]
-    private Sprite upSprite;
+    public Sprite upSprite;
     [SerializeField]
-    private Sprite downSprite;
+    public Sprite downSprite;
     [SerializeField]
-    private Sprite neutralSprite;
+    public Sprite neutralSprite;
 
 
 

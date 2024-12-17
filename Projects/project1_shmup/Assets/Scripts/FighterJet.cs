@@ -36,7 +36,10 @@ public class FighterJet : Enemy
             shotReady = true;
         }
 
-        if (shotDelay > shotRequirement && shotReady) { Attack(); }
+        if (shotDelay > shotRequirement && shotReady && target.transform.position.x < position.x)
+        {
+            Attack(); 
+        }
 
         shotDelay += Time.deltaTime;
 
@@ -45,11 +48,20 @@ public class FighterJet : Enemy
     // Start is called before the first frame update
     protected override void Start()
     {
-        // slightly randomized vertical and horizontal trajectory
-        velocity.x = Random.Range(-0.002f,-0.0015f);
-        velocity.y = Random.Range(-0.0025f, 0.0025f);
+        points = 100;
+        position.x = 9;
+        target = enemyManager.collisionManager.player;
 
-        health = 5;
+        // Random starting y position
+        position.y = Random.Range(-4f, 4f);
+
+
+
+        // slightly randomized vertical and horizontal trajectory
+        velocity.x = Random.Range(-2f,-1.5f);
+        velocity.y = Random.Range(-2.5f, 2.5f);
+
+        health = 3;
         mass = 1;
         maxSpeed = 1;
         base.Start();
@@ -58,7 +70,6 @@ public class FighterJet : Enemy
     // Update is called once per frame
     protected override void Update()
     {
-        Behavior();
         Bounce();
         base.Update();
     }
